@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Campus Connect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand fw-bold" href="" > <img src="logo.jpg" height="40px" alt="">
+            Campus Connect
+        </a>
+
+        <!-- Hamburger -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#events">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#register">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- ================= HERO SECTION ================= -->
+<section class="bg-light text-center p-5">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to Campus Connect</h1>
+        <p class="lead">Discover and register for exciting student events happening on campus.</p>
+        <a href="#events" class="btn btn-primary btn-lg mt-3">Explore Events</a>
+    </div>
+</section>
+
+
+<!-- ================= EVENTS SECTION ================= -->
+<section id="events" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Upcoming Events</h2>
+
+        <div class="row g-4">
+
+            <!-- Event 1 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Tech Workshop</h5>
+                        <p class="card-text">Learn modern web development with industry experts.</p>
+                        <button class="btn btn-primary">Register</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Cultural Night</h5>
+                        <p class="card-text">Celebrate diversity with music, dance, and performances.</p>
+                        <button class="btn btn-primary">Register</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Seminar</h5>
+                        <p class="card-text">Gain insights into entrepreneurship and leadership.</p>
+                        <button class="btn btn-primary">Register</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= REGISTRATION FORM ================= -->
+<section id="register" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Register for an Event</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Full Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your name">
+                    </div>
+
+
+
+<div class="mb-3">
+                        <label class="form-label">Email address</label>
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Select Event</label>
+                        <select class="form-select">
+                            <option>Tech Workshop</option>
+                            <option>Cultural Night</option>
+                            <option>Business Seminar</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Submit Registration</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= CONTACT SECTION ================= -->
+<section id="contact" class="py-5">
+    <div class="container text-center">
+        <h2>Contact Us</h2>
+        <p>Email: campusconnect@email.com</p>
+        <p>Phone: +237 6XX XXX XXX</p>
+    </div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-primary text-white text-center p-3">
+    <p class="mb-0">© 2026 Campus Connect. All Rights Reserved.</p>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
